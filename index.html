@@ -1,0 +1,419 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<header class="header" id="header">
+    <nav class="navbar container">
+      <section class="navbar__left">
+        <a href="https://abonding.com/" class="brand" style="text-decoration: none;color:#019626;font-weight:700;font-size: 20px;">
+            <img src="https://abonding.com/public/assets/img/logo.png" style="height:45px"/>
+          Abonding
+        </a>
+        <div class="burger" id="burger">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </div>
+      </section>
+      <section class="navbar__center">
+        <span class="overlay"></span>
+        <div class="menu" id="menu">
+          <div class="menu__header">
+            <span class="menu__arrow"><i class="bx  bx-chevron-left"></i></span>
+            <span class="menu__title"></span>
+          </div>
+          <ul class="menu__inner">
+            <li class="menu__item"><a href="https://abonding.com/" class="menu__link">Home</a></li>
+            <li class="menu__item menu__dropdown">
+              <a href="https://abonding.com/aboutus" class="menu__link">
+            About Us
+                <i class="bx trun bx-chevron-right"></i>
+              </a>
+              <div class="submenu megamenu__normal">
+                <ul class="submenu__list">
+                  <li><a href="#">Our Company</a></li>
+                  <li><a href="#">Our Vision & Our Mission </a></li>
+                  <li><a href="#">Our Process</a></li>
+                  <li><a href="#">Our Figures</a></li>
+                  <li><a href="#">Our Strengths</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu__item menu__dropdown">
+              <a href="#" class="menu__link">
+                Product Range
+                <i class="bx trun bx-chevron-right"></i>
+              </a>
+              <div class="submenu megamenu__text">
+                <div class="submenu__inner">
+                  <h4 class="submenu__title">Products</h4>
+                  <ul class="submenu__list">
+                                        <li><a href="https://abonding.com/productdetails?id=1">Mycotoxin</a></li>
+                                      <li><a href="https://abonding.com/productdetails?id=2">Allergens</a></li>
+                                      <li><a href="https://abonding.com/productdetails?id=3">Microbial</a></li>
+                                      <li><a href="https://abonding.com/productdetails?id=4">Pathogens</a></li>
+                                      <li><a href="https://abonding.com/productdetails?id=5">Enzymes</a></li>
+                                    </ul>
+                </div>
+                 <div class="submenu__inner">
+               <h4 class="submenu__title">Products</h4>
+                  <ul class="submenu__list">
+                                        <li><a href="https://abonding.com/productdetails?id?=6">Antibiotics</a></li>
+                                      <li><a href="https://abonding.com/productdetails?id?=7">Adulteration</a></li>
+                                      <li><a href="https://abonding.com/productdetails?id?=8">Ingredients</a></li>
+                                      <li><a href="https://abonding.com/productdetails?id?=9">Toxin Binder</a></li>
+                                      <li><a href="https://abonding.com/productdetails?id?=10">Minerals</a></li>
+                                    </ul>
+                </div>
+                <div class="submenu__inner">
+               <h4 class="submenu__title">Products</h4>
+                  <ul class="submenu__list">
+                                        <li><a href="https://abonding.com/productdetails?id?=11">Vitamins</a></li>
+                                      <li><a href="https://abonding.com/productdetails?id?=12">Lab Furniture</a></li>
+                                      <li><a href="https://abonding.com/productdetails?id?=13">Equipment</a></li>
+                                      <li><a href="https://abonding.com/productdetails?id?=14">Pesticides Residue</a></li>
+                                      <li><a href="https://abonding.com/productdetails?id?=15">Insecticide Residue</a></li>
+                                    </ul>
+                </div>
+                <div class="submenu__inner">
+               <h4 class="submenu__title">Products</h4>
+                  <ul class="submenu__list">
+                                        <li><a href="https://abonding.com/productdetails?id=16">Heavy Metals</a></li>
+                                      <li><a href="https://abonding.com/productdetails?id=17">Yeast</a></li>
+                                    </ul>
+                </div>
+               
+              </div>
+            </li>
+            <li class="menu__item"><a href="https://abonding.com/industries" class="menu__link">Industries</a></li>
+            <li class="menu__item"><a href="https://abonding.com/contactus" class="menu__link">Contact Us</a></li>
+            <li class="menu__item "><a href="#" class="menu__link d-none d-xl-block"  onclick="opensearchpop()" style="color:#019626;font-size: 25px;" class="menu__link"><i class='bx bx-search-alt-2 '></i> </a></li>
+          </ul>
+        </div>
+      </section>
+      <section class=" d-block d-xl-none">
+        <li class="menu__item pt-2 pt-md-0 " style="list-style: none;"><a href="#" onclick="opensearchpop()" style="color:#019626;font-size: 25px;" class="menu__link"><i class='bx bx-search-alt-2 '></i> </a></li>
+      </section>
+    </nav>
+  </header>
+<section class="hero-slider hero-style">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+
+
+      <div class="swiper-slide">
+        <div class="slide-inner slide-bg-image" data-background="https://abonding.com/public/assets/img/pioneers.jpg">
+            <div class="container">
+                <div data-swiper-parallax="400" class="slide-text">
+                  <p class="whitefont">One Stop Solution for Food / Feed/ Dairy/ Water & Beverages Industries
+ Thank You for Visiting Our Website!</p>
+                </div>
+                <div class="clearfix"></div>
+                <div data-swiper-parallax="500" class="slide-btns">
+                  <a href="https://abonding.com/productrange" class="theme-btn-s2">Read More</a>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-inner slide-bg-image" data-background="https://abonding.com/public/assets/img/slider1.jpg">
+          <div class="container">
+            <div data-swiper-parallax="400" class="slide-text">
+              <p class="whitefont">More than 5 decades of Dedicated Service to Industry</p>
+            </div>
+            <div class="clearfix"></div>
+            <div data-swiper-parallax="500" class="slide-btns">
+              <a href="https://abonding.com/productrange" class="theme-btn-s2">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-inner slide-bg-image" data-background="https://abonding.com/public/assets/img/slide3.jpg">
+            <div class="container">
+                <div data-swiper-parallax="400" class="slide-text">
+                  <p class="whitefont">More than 5 decades of Dedicated Service to Industry</p>
+                </div>
+                <div class="clearfix"></div>
+                <div data-swiper-parallax="500" class="slide-btns">
+                  <a href="https://abonding.com/productrange" class="theme-btn-s2">Read More</a>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
+<section>
+  <div class="container py-5">
+    <div class="row mb-5 justify-content-between">
+      <div class="col-md-6 col-12">  <h3>Trending <span>Products</span></h3></div>
+      <div class="col-md-3 col-6"> <a href="https://abonding.com/productrange" class="btn-custom btn"> View More</a></div>
+    </div>
+       <div class="row">
+                <div class="col-md-3 px-3">
+                    <div class="cardproducts">
+                        <img src="https://abonding.com/public/assets/img/dairy.jpg" alt="Dairy Cultures">
+                        <div class="card-body">
+                            <h5 class="card-title">Dairy</h5>
+                            <p class="card-text"> Aflatoxin M1 / Microbial / Hygiene Monitoring System / Enzymes / Antibiotics / Adultration Testing Kits and Equipment,  Vitamins, Starter Cultures
+ UHT – Milk (Special vial), sterility testing, Shelf-life testing, Challenge testing.</p>
+                            <a href="https://abonding.com/productrange" class="learn-more">LEARN MORE <i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 px-3">
+                    <div class="cardproducts">
+                        <img src="https://abonding.com/public/assets/img/feed.jpg" alt="Dairy Cultures">
+                        <div class="card-body">
+                            <h5 class="card-title">Feeds</h5>
+                            <p class="card-text">Mycotoxin (Aflatoxin /  Ochratoxins, Fumonisins, Trichothecenes (T2/Ht2), Deoxynivalenol (DON), and Zearalenone), Microbial, Pathogens , Enzymes Testing Kits and Equipment,  Toxin Binder / Vitamins / Minirals / Yeast / Natural Antibiotics / Probiotics / Raw Materials (Corn).</p>
+                            <a href="https://abonding.com/productrange" class="learn-more">LEARN MORE <i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 px-3">
+                    <div class="cardproducts">
+                        <img src="https://abonding.com/public/assets/img/foodtest.jpg" alt="Dairy Cultures">
+                        <div class="card-body">
+                            <h5 class="card-title">Foods</h5>
+                            <p class="card-text">Food: Aflatoxin / Ochratoxin, Allergens (Almond, Peanut, Total Milk, Egg, Soy, Sesame, Coconut, Mustard, Crustacea, Hazelnut, Gluten etc.), Microbial (Aetobic Count,  E-Coli, Coliform, Enterobacteriaceae, Yeast and Mould, Lactic Acid Bacteria, Staphylococcus Aureus, Aqua Heterophic, Salmonella, Listeria, E-Coli O157, Campylobacter, Cronobacter, STEC & STEC stx), Hygiene Monitoring System, Pesticides Residue / Insecticides Residue / Heavy Metals Residue.</p>
+                            <a href="https://abonding.com/productrange" class="learn-more">LEARN MORE <i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 px-3">
+                    <div class="cardproducts">
+                        <img src="https://abonding.com/public/assets/img/beverage.jpg" alt="Dairy Cultures">
+                        <div class="card-body">
+                            <h5 class="card-title">Beverage</h5>
+                            <p class="card-text">	Beverages : -  TVC, Coliform, E. coli, Enterobacteriaceae, Alicyclobacillus, Gram Negative, Lactic Acid, Staphylococcus, Pseudomonas, Orange Serum Broth, Salmonella spp</p>
+                            <a href="https://abonding.com/productrange" class="learn-more">LEARN MORE <i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    
+</div>
+</section>
+
+<div style=" background: url('4.jpg') no-repeat center center/cover;color:black;font-family: Arial, sans-serif;">
+<div class="container-fluid industries-section">
+        <div class="content-box">
+            <h2>Industries <span>Served</span></h2>
+            <p>
+                Each year, hundreds of clients across the country, from many types of industries, 
+                rely on the expertise of Trading in food ingredients and industrial chemicals. 
+                Utilizing our vast network, technical know-how of products, business development strategies, 
+                customer orientation, as well as state-of-the-art branches and warehouses, we serve 
+                the leading manufacturing corporates with end-to-end marketing solutions.
+            </p>
+            <ul class="industry-list">
+                <li>Dairy</li>
+                <li>Bakery</li>
+                <li>Confectionery</li>
+                <li>Water Treatment</li>
+                <li>Detergent Chemicals</li>
+                <li>Leather Processing</li>
+            </ul>
+        </div>
+    </div>
+      </div>
+<section>
+<div class="container">
+  <div class="title-container mb-5">
+                <h2 class="section-title">Our <span>Awards</span></h2>
+                <div class="underline"></div>
+            </div>
+  </div>
+  <div class="px-3">
+<div class="row">
+                <div class="col-md-3 px-3">
+                    <div class="cardindustries">
+                        <img src="https://abonding.com/public/assets/img/award1.jpg" alt="Dairy">
+                        <div class="card-body">
+                            <h5 class="card-title">Food Safety Excellence Award</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 px-3">
+                    <div class="cardindustries">
+                        <img src="https://abonding.com/public/assets/img/award1.jpg" alt="Dairy">
+                        <div class="card-body">
+                            <h5 class="card-title">Most Trusted Food Brand Award</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 px-3">
+                    <div class="cardindustries">
+                        <img src="https://abonding.com/public/assets/img/award1.jpg" alt="Dairy">
+                        <div class="card-body">
+                            <h5 class="card-title">Best Brix Consistency Recognition</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 px-3">
+                    <div class="cardindustries">
+                        <img src="https://abonding.com/public/assets/img/award1.jpg" alt="Dairy">
+                        <div class="card-body">
+                            <h5 class="card-title">Allergen-Free Product Innovator</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+</section>
+<section>
+  <div class="container">
+  <div class="title-container mb-5">
+                <h2 class="section-title">Our Eleminating <span>Bands</span></h2>
+                <div class="underline"></div>
+            </div>
+        </div>
+    
+    </div>
+
+
+</section>
+<section>
+<div class="container-fluid bg-success">
+    <div class="container pb-4 text-white text-bold">
+        <h1 class="text-center py-5">Our <span>Figures</span></h1>
+   
+        <div class="row mt-4">
+        
+        <div class="col-md-4 text-center mb-3 col-md-offset-2">
+          <h1><span class="counter">111</span>Cr+</h1>
+          <p>our Turnover(FY:2024-2025)</p>
+        </div>
+        
+        <div class="col-md-4 mb-3 text-center">
+          <h1><span class="counter">300</span>+</h1>
+          <p>Our Products</p>
+        </div>
+        
+        <div class="col-md-4 mb-3 text-center">
+          <h1><span class="counter">3,500</span>+</h1>
+          <p>Our clients</p>
+        </div>
+        
+        <div class="col-md-4 mb-3 text-center">
+          <h1><span class="counter">20</span>+</h1>
+          <p>Our Product Ranges</p>
+        </div>
+        <div class="col-md-4 mb-3 text-center">
+          <h1><span class="counter">20</span>+</h1>
+          <p>Industries Served</p>
+        </div>
+        <div class="col-md-4 mb-3 text-center">
+          <h1><span class="counter">10</span>+</h1>
+          <p>Our Presence</p>
+        </div>
+       
+         
+      </div>
+    </div>
+</div>
+</section><footer>
+        <div class="up-section">
+            <a href="#" class="f-logo">Abonding</a>
+
+            <ul>
+                <h1>Quick links</h1>
+                <li><a href="https://abonding.com/">Home</a></li>
+                <li><a href="https://abonding.com/aboutus">About Us</a></li>
+                <li><a href="https://abonding.com/productrange">Product Range</a></li>
+                <li><a href="https://abonding.com/industries">Industries</a></li>
+                <li><a href="https://abonding.com/contactus">Contact Us</a></li>
+            </ul>
+
+            <ul>
+                <h1>About</h1>
+                <li><a href="https://abonding.com/aboutus">Company</a></li>
+                <li><a href="https://abonding.com/aboutus">Location</a></li>
+                <li><a href="https://abonding.com/aboutus">About</a></li>
+                <li><a href="https://abonding.com/aboutus">Our Services</a></li>
+            </ul>
+            <div class="social">
+                <h1>Social</h1>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+        </div>
+        </div>
+        <p class="copyright"><span class="f-logo">Abonding</span>Copyright 2024</p>
+    </footer>   
+    <div class="bodydiv ">
+       
+       <div class="btn-group my mb-3" role="group" aria-label="Basic example">
+         <button type="button" class="btn btn-success"><i class="bi my bi-whatsapp"></i></button>
+      <a href="https://wa.me/919442576397" target="_blank" type="button" class="btn btn-light">Whatsapp:<br>+91 94425 76397</a>
+       </div>
+       <div class="btn-group my" role="group" aria-label="Basic example">
+         <button type="button" class="btn btn-success"><i class="bi my bi-telephone-fill"></i></button>
+         <a href="tel:+919442576397" type="button" class="btn btn-light">Call:<br>+91 94425 76397</a>
+       </div>
+ </div>
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-fullscreen-md-down">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Search Products</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="searchForm">
+                    <div class="input-group">
+                        <input type="text" id="searchInput" class="form-control" placeholder="Search products..." autocomplete="off">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
+
